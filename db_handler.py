@@ -1,5 +1,6 @@
 import sqlite3
-from .transaction import Transaction
+from transaction import Transaction
+
 
 # Path to your SQLite database. Change this to your actual path.
 DB_PATH = 'transactions.db'

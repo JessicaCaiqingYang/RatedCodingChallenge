@@ -7,3 +7,4 @@ My steps:
 5. Build a FastAPI server with two endpoints:
 - GET /transactions/:hash - Returns a single transaction details
 - GET /stats - Returns aggregate stats about all transactions
+- To run the FastAPI application, execute the following command in the terminal: `uvicorn api_server:app --reload`
